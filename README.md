@@ -7,3 +7,9 @@
 7. Close the connection
 
 refer DemoJdbc.java 
+
+* Use executeQuery of statement to run select queries
+* Use execute of statement to run insert, update, delete queries
+* Statement will become problematic for working with user defined values, variables
+* Using statement in these cases can also introduce the risk of sql injection
+* To overcome this challenge we can use PreparedStatement where we can use dynamic parameters (?)
