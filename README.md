@@ -6,4 +6,4 @@
 6. Execute statement
 7. Close the connection
 
-refer DemoJdbc.java
+refer DemoJdbc.java 
